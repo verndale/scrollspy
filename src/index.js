@@ -54,12 +54,12 @@ class ScrollSpy {
   markSections(visibilityStatus) {
     let isAlreadyMarked = false;
 
-    this.options.navItems.forEach(($item, index) => {
+    this.options.navItems.forEach((item, index) => {
       if (visibilityStatus[index] && !isAlreadyMarked) {
         isAlreadyMarked = true;
-        $item.classList.add(this.options.className);
+        item.classList.add(this.options.className);
       } else {
-        $item.classList.remove(this.options.className);
+        item.classList.remove(this.options.className);
       }
     });
   }
