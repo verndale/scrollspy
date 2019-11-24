@@ -1,14 +1,14 @@
 {
   "name": "@verndale/scrollspy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple vanilla JS scrollspy",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/verndale/scrollspy"
   },
   "scripts": {
-    "build": "babel src/index.js -o dist/index.js"
+    "build": "babel src/index.js -o lib/index.js"
   },
   "keywords": [
     "scrollspy"
